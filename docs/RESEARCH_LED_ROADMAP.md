@@ -21,6 +21,10 @@ The goal is a basic, auditable forecasting baseline with optional feature layers
 | R11 | Select a maintainable reference and extension interface | Write a decision record containing comparable score table, data costs, missingness, uncertainty, calibration, run time and replication status. Select the simplest defensible target-specific baseline(s) and an explicit feature input/output contract; archive alternatives. This decision follows results, not this roadmap. | R6–R10 as applicable |
 | R12 | Operational and wagering gate | Version forecasts and quote snapshots, calculate no-vig probability/EV with push and settlement rules, log offered/executed prices and limits, run prospective paper tracking before any strategy claim. Report net results with uncertainty; no historical ROI from final or closing lines used as though known earlier. | R4, R5, R11 |
 
+## Additional source investigations
+
+[Practitioner and commercial leads](PRACTITIONER_DATA_MARKET_LEADS.md) records SharpStack's market-derived pricing and operations, Fantasy Points Data Suite's charted feature inventory, and Circa/Pinnacle first-person accounts. R1 must capture their disclosed methods and omissions; R3 must test Fantasy Points' historical timestamp and licensing claims; R4 must test SharpStack's quote/algorithm transparency and available exports. R8/R9/R12 can use those findings only after their gates. No proprietary fair-odds claim or practitioner account is a reproduced architecture.
+
 ## Immediate order
 
 R1, R2 and R3 establish reproducibility and timing. R4 can run alongside R3. R5 is the common comparison surface. R6 and R7 establish two simple, independent families before complexity. R8 then measures nfelo and existing v3 on equal terms. R9 and R10 are conditional extensions. R11 is the first architecture choice; R12 is a separate market/operations claim.
