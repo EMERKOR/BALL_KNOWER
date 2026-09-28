@@ -2,7 +2,7 @@
 
 Status: proposed replacement work sequence, 2026-09-27. [Published architecture reference](PUBLISHED_NFL_MODEL_ARCHITECTURES.md) is the evidence register. This roadmap supersedes the sequencing in root `ROADMAP.md`, `BALL_KNOWER_V3_MASTER_ROADMAP.md`, and `ball_knower_v3/CHALLENGER_RESEARCH_ROADMAP.md`; those files remain historical implementation records. No model architecture or weight is selected by this document.
 
-The goal is a basic, auditable forecasting baseline with optional feature layers. Reproduce working published approaches first, evaluate them on the same timestamped data, then choose what to retain. Betting and player props require additional quote/availability evidence. Existing v3 remains a comparison candidate, not the mandatory foundation.
+The goal is a basic, auditable forecasting baseline with optional feature layers. Reproduce working published approaches first, evaluate them on the same timestamped data, then choose what to retain. Betting and player props require additional quote/availability evidence. Ball Knower has no working end-to-end forecasting model. Existing code and reports are unfinished development material, not a comparison baseline. First get a published reference model running end to end.
 
 ## Work queue and acceptance gates
 
@@ -27,7 +27,7 @@ The goal is a basic, auditable forecasting baseline with optional feature layers
 
 ## Immediate order
 
-R1, R2 and R3 establish reproducibility and timing. R4 can run alongside R3. R5 is the common comparison surface. R6 and R7 establish two simple, independent families before complexity. R8 then measures nfelo and existing v3 on equal terms. R9 and R10 are conditional extensions. R11 is the first architecture choice; R12 is a separate market/operations claim.
+R1, R2 and R3 establish reproducibility and timing. R4 can run alongside R3. R5 is the common comparison surface. R6 and R7 establish two simple, independent families before complexity. R8 traces nfelo and records the gaps in Ball Knower. Only a functioning implementation can later enter the same-game evaluation. R9 and R10 are conditional extensions. R11 is the first architecture choice; R12 is a separate market/operations claim.
 
 ## Definition of done for any model comparison
 
@@ -37,4 +37,4 @@ Every result names a pinned code revision, source/data revision, training and te
 
 - **Accepted process**: use published inspectable implementations as reference; reproduce before adopting architecture or coefficients. User direction, 2026-09-27.
 - **Open**: first target and cutoff, data vendors, baseline winner, model distribution, weight values and prop family. Resolve with the gates above.
-- Existing Phase 3C reports and contracts are useful diagnostics for v3, but no longer dictate the project sequence. Any change to target/cutoff or source history requires rerunning the common replay.
+- Existing Phase 3C reports and contracts are development diagnostics for unfinished code, but no longer dictate the project sequence. Any change to target/cutoff or source history requires rerunning the common replay.
